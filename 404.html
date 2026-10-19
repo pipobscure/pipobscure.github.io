@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found · pipobscure</title>
+<script>
+  // The blog used to live at the site root; send its old addresses to /blog.
+  (function () {
+    var p = location.pathname;
+    if (/^\/(20\d\d|page|media)\//.test(p)) location.replace("/blog" + p + location.search + location.hash);
+  })();
+</script>
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1420" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/assets/pipobscure.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-row">
+    <a class="brand" href="/"><img src="/assets/pipobscure.svg" alt="" width="28" height="28"> pipobscure</a>
+    <nav aria-label="Site">
+      <ul><li><a href="/#projects">Projects</a></li><li><a href="/blog/">Blog</a></li><li><a href="/slides/">Slides</a></li><li><a href="https://github.com/pipobscure">GitHub</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <h1>Not found</h1>
+    <p class="lede">There is nothing at this address. Try the <a href="/">home page</a> or the
+      <a href="/blog/">blog archive</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><img src="/assets/pipobscure.svg" alt="" width="20" height="20"> Philipp Dunkel
+      (@pipobscure.com on the Atmosphere).</p>
+  </div>
+</footer>
+</body>
+</html>

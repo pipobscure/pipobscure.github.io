@@ -1,9 +1,11 @@
+<!doctype html>
 <html lang="en">
   <head>
     <title>Notes</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css" />
-    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.3.0/markdown-it.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde@2.21.0/dist/easymde.min.css" integrity="sha384-ZoLYv3S+AsZX+zhbN1D1+WPpc8f+DmLfxfgw+qn0Nq8wJPOYQQXEW5ZrRhcGozlG" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@15.0.2/dist/browser/markdown-it.umd.min.js" integrity="sha384-eaXixoauKhs0THQDG40r2SPao0FZmzCXLMECD9sbA02doHE3APxry0Az2P/oBq9E" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/easymde@2.21.0/dist/easymde.min.js" integrity="sha384-mTM6vzy+/UiHrMBClNGViM9qEv0/26iCGqpJKhSzdnjrxbKjO3vkT62ujXQ8B5iv" crossorigin="anonymous"></script>
   </head>
   <body onload="init();">
     <div id="edit">
@@ -129,7 +131,7 @@
         return false;
       }
       function editorify(element, name, autofocus) {
-        element.ide = new SimpleMDE({
+        element.ide = new EasyMDE({
           element,
           spellChecker: true,
           autosave: {

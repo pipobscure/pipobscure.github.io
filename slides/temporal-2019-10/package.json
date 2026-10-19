@@ -11,7 +11,7 @@
   "author": "Philipp Dunkel <pip@pipobscure.com>",
   "license": "ISC",
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.14.1"
+    "@marp-team/marp-cli": "^4.5.1"
   },
   "marp": {
     "html": true

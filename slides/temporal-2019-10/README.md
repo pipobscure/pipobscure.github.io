@@ -273,7 +273,7 @@ we feel like `Temporal` is not a good candidate for a first built-in module at t
  ![](./box.svg) **(2019-12-31)** tc39 stage review / edit specification to reflect
  ![](./box.svg) **(2020-02-04)** request tc39 stage advancement
 
-<!-- mermaid.js -->
+<!-- mermaid.js 12.1.0 -->
 <script src="./mermaid.js"></script>
-<script>mermaid.initialize({startOnLoad:true, flowchart:{ useMaxWidth:false } });</script>
+<script>mermaid.initialize({startOnLoad:true, theme:'default', look:'classic', themeVariables:{ fontSize:'22px' }, flowchart:{ useMaxWidth:true } });</script>
 <style>.mermaid svg { height: 13em; }</style>
