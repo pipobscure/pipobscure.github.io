@@ -7,7 +7,8 @@
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#f6f4ee" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e1420" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="/assets/pipobscure.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
 
 <header class="top">
   <div class="wrap top-row">
-    <a class="brand" href="/"><img src="/assets/pipobscure.svg" alt="" width="28" height="28"> pipobscure</a>
+    <a class="brand" href="/"><img src="/assets/pipobscure.png" alt="" width="28" height="28"> pipobscure</a>
     <nav aria-label="Site">
       <ul><li><a href="/#projects">Projects</a></li><li><a href="/blog/">Blog</a></li><li><a href="/slides/" aria-current="page">Slides</a></li><li><a href="https://github.com/pipobscure">GitHub</a></li></ul>
     </nav>
@@ -26,7 +27,17 @@
 <section class="archive">
   <div class="wrap prose">
     <h1>Slides</h1>
-    <p class="lede">Temporal updates for TC39.</p>
+    <p class="lede">Talks on <a href="https://bundle.pipobscure.com">bundle</a>, and Temporal updates
+      for TC39. The arrow keys move between slides; in the bundle decks, <kbd>?</kbd> lists the
+      other controls.</p>
+
+    <h2>bundle</h2>
+    <ol class="entries">
+      <li><a href="./bundle/meetup.html">Your Node App, One File</a> <time datetime="2026">for a JS meetup, 2026</time></li>
+      <li><a href="./bundle/">Ship the Tree</a> <time datetime="2026">for a technical conference, 2026</time></li>
+    </ol>
+
+    <h2>Temporal</h2>
     <ol class="entries">
       <li><a href="./temporal-2019-03/">Temporal: update 2019-03</a> <time datetime="2019-03">March 2019</time></li>
       <li><a href="./temporal-2019-10/">Temporal: update 2019-10</a> <time datetime="2019-10">October 2019</time></li>
@@ -40,7 +51,7 @@
 
 <footer class="foot">
   <div class="wrap">
-    <p><img src="/assets/pipobscure.svg" alt="" width="20" height="20"> Philipp Dunkel
+    <p><img src="/assets/pipobscure.png" alt="" width="20" height="20"> Philipp Dunkel
       (@pipobscure.com on the Atmosphere).</p>
   </div>
 </footer>
